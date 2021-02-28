@@ -1,0 +1,24 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.next{
+    background-color: $base;
+    padding: rem(20px);
+    text-decoration: none;
+    color: #fff;
+    border-radius: rem(5px);
+    text-transform: uppercase;
+    font-family: OpenSans-Bold;
+    &:hover{
+        background-color: #000;
+    }
+}

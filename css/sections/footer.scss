@@ -1,0 +1,44 @@
+.footer{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    .foot_block{
+        width: 95%;
+        padding: rem(10px) 0 rem(10px) 0;
+        color:#fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .foot_left{
+            font-size: rem(14px);
+            font-family: OpenSans-Light;
+            a{
+                color: #fff;
+                font-family: OpenSans-Bold;
+                &:hover{
+                    color: $base;
+                    text-decoration: none;
+                }
+            }
+        }
+        .foot_middle{
+            font-family: Gora Free;
+            color: $base;
+        }
+        .foot_right{
+            font-family: OpenSans-Bold;
+            nav ul{
+                display: flex;
+                justify-content: space-around;
+                .icons{
+                    width: rem(25px);
+                    height: rem(25px);
+                    fill: #ccc;
+                    &:hover{
+                        fill: $base;
+                    }
+                }
+            }
+        }
+    }
+}

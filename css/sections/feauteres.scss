@@ -1,0 +1,52 @@
+.feauteres{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .h2{
+        text-align: center;
+        font-family: OpenSans-Bold;
+        font-size: rem(40px);
+        text-transform: uppercase;
+    }
+    .cont__three{
+        display: flex;
+        justify-content: center;
+        .column{
+            margin: 0 rem(30px) 0 rem(30px);
+            width: 18.5%;
+            .icons_h{
+                width: rem(70px);
+                height: auto;
+                max-height: rem(70px);
+                padding: rem(15px);
+                background-color: $base;
+                border-radius: 50%;
+                margin: 0px auto rem(40px);
+                img{
+                    max-width: 100%;
+                    height: auto;//rem(33px);
+                }
+            }
+            .column_h{
+                font-family: OpenSans-Light;
+                font-size: rem(12px);
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: bold;
+            }
+            .fish{
+                font-family: OpenSans-Light;
+                line-height: rem(30px);
+                P{
+                    text-align: center;
+                }
+                ul{
+                    padding-left: rem(40px);
+                    list-style-type: disc;
+                }
+            }
+        }
+    }
+}

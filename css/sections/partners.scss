@@ -1,0 +1,26 @@
+.partners{
+    h2{
+        margin-top: rem(50px);
+        margin-left: rem(70px);
+        font-size: rem(42px);
+        font-family: OpenSans-Bold;
+        text-transform: uppercase;
+    }
+    .logo_icons{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-top: rem(100px);
+            filter: grayscale(100%);
+            &:hover{
+                cursor: pointer;
+                filter: grayscale(0);
+            }
+        }
+        .logo_partners{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+    }
+}

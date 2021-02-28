@@ -1,0 +1,15 @@
+.pattern{
+    font-family: OpenSans-Light;
+    background: url(..//img/pattern.png) #000;
+    padding: rem(30px);
+    display: flex;
+    justify-content: center;
+    .text{
+        color: #fff;
+        width: 40%;
+        span{
+            color:$base;
+            font-family: OpenSans-Bold;
+        }
+    }
+}

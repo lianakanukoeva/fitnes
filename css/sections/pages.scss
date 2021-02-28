@@ -1,0 +1,44 @@
+.pages{
+    display: flex;
+    font-family: OpenSans-Light;
+    justify-content: center;
+    align-items: center;
+    padding: rem(50px);
+    p{
+        margin-right: rem(10px);
+    }
+    .pages__ul{
+        padding: 0 rem(10px) 0 rem(10px);
+        display: flex;
+        li{
+            padding: 0 rem(10px) 0 rem(10px);
+            a{
+                font-weight: bold;
+                text-decoration: none;
+                color: #000;
+                &:hover{
+                    color: $base;
+                }
+            }
+        }
+        .first_page{
+            background-color: #000;
+            border-radius: rem(5px);
+            a{
+                color: $base;
+            }
+        }
+    }
+    img{
+        padding: 0 rem(10px) 0 rem(10px);
+        max-height: rem(20px);
+        width: auto;
+        &:hover{
+            fill: $base;
+            cursor: pointer;
+        }
+    }
+    .prev{
+        transform: rotate(180deg);
+    }
+}

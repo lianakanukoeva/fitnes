@@ -1,0 +1,90 @@
+.header{
+    background-color: #000;
+    position: relative;
+    width: 100%;
+    max-height: rem(76px);
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        .head_h1{
+            text-transform: uppercase;
+            font-size: rem(22px);
+            font-family: Gora Free;
+            color: $base;
+        }
+        .head_nav{
+            display: flex;
+            justify-content: center;
+            white-space: nowrap;
+            nav li{
+                padding-left: rem(20px);
+                display: inline-block;
+                white-space: nowrap;
+                color: #fff;
+                list-style: none;
+            }
+            nav a{
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: OpenSans-Bold;
+                color: #fff;
+                .icon{
+                    fill: #fff;
+                    width: rem(20px);
+                    height: rem(20px);
+                }
+                &:hover{
+                    color: $base;
+                    .icon{
+                        fill: $base;
+                    }
+                }
+            }
+        }
+        .head_contacts{
+            text-align: end;
+            .phone{
+                line-height: 0;
+                font-size: rem(22px);
+                color: #fff;
+                font-family: OpenSans-Bold;
+            }
+            .grap{
+                color: $base;
+                text-decoration: underline;
+                .timing{
+                    box-shadow: 0 0 3px;
+                    visibility: hidden;
+                    padding: rem(10px);
+                    font-family: OpenSans-Light;
+                    position: absolute;
+                    background-color: #fff;
+                    div{
+                        color: $base;
+                        font-family: OpenSans-Bold;
+                    }
+                }
+                &:hover{
+                    color: #ccc;
+                    cursor: pointer;
+                    .timing{
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+    }
+}
+.head_menu{
+    padding: rem(30px);
+    margin-left: rem(30px);
+    font-family: OpenSans-LightItalic;
+    a{
+        color: $base;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

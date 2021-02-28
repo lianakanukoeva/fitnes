@@ -1,0 +1,42 @@
+.serv_content{
+    h2{
+        margin-left: rem(70px);
+        font-size: rem(42px);
+        font-family: OpenSans-Bold;
+        text-transform: uppercase;
+    }
+    .serv_cont{
+        .serv_row{
+            display: flex;
+            justify-content: space-around;
+            .serv_block {
+            max-width: 15%;
+            .bg_img{
+                .bg_col{
+                    height: 100%;
+                    background-color: #000;
+                    opacity: 0.5;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                height: rem(150px);
+                font-size: rem(20px);
+                font-family: OpenSans-Bold;
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+    }
+            h3{
+                padding-top: rem(20px);
+                font-size: rem(15px);
+                font-family: OpenSans-Bold;
+                text-transform: uppercase;
+            }
+            p{
+                font-family: OpenSans-Light;
+                font-size: rem(14px);
+            }
+        }
+    }

@@ -1,0 +1,20 @@
+//config
+@import "config/mixins.scss";
+@import "config/variables.scss";
+
+//layout
+@import "layout/base.scss";
+@import "layout/adjustment.scss";
+@import "layout/fonts.scss";
+
+//sections
+@import "sections/input.scss";
+@import "sections/header.scss";
+@import "sections/feauteres.scss";
+@import "sections/feeds.scss";
+@import "sections/pages.scss";
+@import "sections/footer.scss";
+@import "sections/pattern.scss";
+@import "sections/form-comment.scss";
+@import "sections/partners.scss";
+@import "sections/services.scss";
